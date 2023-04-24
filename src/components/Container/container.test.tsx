@@ -1,3 +1,4 @@
+import { screen } from '@testing-library/react';
 import { renderTheme } from '../../utils/renderTheme';
 import Container from './index';
 
@@ -8,6 +9,7 @@ describe('<Container />', () => {
         <h1>Olá mundo</h1>
       </Container>,
     );
+    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 
@@ -17,6 +19,7 @@ describe('<Container />', () => {
         <h1>Olá mundo</h1>
       </Container>,
     );
+    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 
@@ -26,6 +29,7 @@ describe('<Container />', () => {
         <h1>Olá mundo</h1>
       </Container>,
     );
+    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 });
