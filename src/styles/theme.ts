@@ -4,9 +4,9 @@ export const theme = {
     secondary: '#313bac',
     blueColor: '#2430af',
     blackColor: '#030303',
-    grayColor: '#6b7688',
+    grayColor: 'rgba(82, 82, 91, 0.3)',
     brownColor: '#46364a',
-    whiteColor: '#ffffff',
+    whiteColor: '#f4f4f5',
     purpleColor: 'rgb(138, 101, 181)',
     greenColor: 'rgb(131, 234, 167)',
     lightGrayColor: '#ccc',
@@ -47,6 +47,7 @@ export const theme = {
   background: {
     white: '#ffffff',
     gray: '#6b7688',
+    dark: '#18181b',
     transparent: 'rgba(255, 255, 255, 0.25)',
   },
 };

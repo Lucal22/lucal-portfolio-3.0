@@ -10,12 +10,12 @@ import Links from '../../components/Links';
 export default function HomePage() {
   return (
     <Styled.Home>
-      <Container background="gray" height={'full'}>
+      <Container background="dark" height={'full'}>
         <Styled.Content>
           <Styled.Presentation>
             <figure>
               {images.luis ? (
-                <Images src={images.luis} alt={'Luis Carlos'} />
+                <Images src={images.luis} width={'100%'} alt={'Luis Carlos'} />
               ) : null}
             </figure>
             <Styled.Description>
