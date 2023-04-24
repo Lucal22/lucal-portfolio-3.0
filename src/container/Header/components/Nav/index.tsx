@@ -1,6 +1,6 @@
 import React from 'react';
-import list from '../../container/Header/mock';
-import Links from '../Links';
+import list from '../../mock';
+import Links from '../../../../components/Links';
 import * as Styled from './styles';
 
 export type NavProps = {

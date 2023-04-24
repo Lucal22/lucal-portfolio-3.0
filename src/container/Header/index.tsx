@@ -1,6 +1,6 @@
 import React from 'react';
-import Menu from '../../components/Menu';
-import Nav from '../../components/Nav';
+import Menu from './components/Menu';
+import Nav from './components/Nav';
 import * as Styled from './styles';
 
 export type HeaderProps = {

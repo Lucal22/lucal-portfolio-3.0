@@ -1,8 +1,8 @@
 import { List, X } from 'phosphor-react';
 import React, { useState } from 'react';
 import * as Styled from './styles';
-import list from '../../container/Header/mock';
-import Links from '../Links';
+import list from '../../mock';
+import Links from '../../../../components/Links';
 
 export default function Menu() {
   const [menu, setMenu] = useState(false);
