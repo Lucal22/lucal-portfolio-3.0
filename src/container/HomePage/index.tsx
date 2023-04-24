@@ -20,7 +20,7 @@ export default function HomePage() {
             </figure>
             <Styled.Description>
               <h1>Luís Carlos Santos Silvestre</h1>
-              <h2>Engenheiro Eletricista e Desenvolvedor Web</h2>
+              <h2>Web Developer and Eletrical Engineer</h2>
               <Styled.Media>
                 <Links
                   link="https://www.linkedin.com/in/lu%C3%ADs-carlos-723a28165/"
@@ -29,12 +29,12 @@ export default function HomePage() {
                   <LinkedinLogo size={32} weight="light" />
                 </Links>
                 <Styled.Button
-                  aria-label="Copia email"
+                  aria-label="Copy email"
                   onClick={async () => {
                     await navigator.clipboard.writeText(
                       'luiscsilvestre22@gmail.com',
                     );
-                    alert('Email copiado');
+                    alert('Email copied');
                   }}
                 >
                   <Envelope size={32} weight="light" />

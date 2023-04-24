@@ -1,6 +1,5 @@
 import { fireEvent, screen } from '@testing-library/react';
 import 'jest-styled-components';
-import React from 'react';
 import { theme } from '../../../../styles/theme';
 import { renderTheme } from '../../../../utils/renderTheme';
 import Menu from './index';

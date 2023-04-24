@@ -7,13 +7,13 @@ const list = [
   },
   {
     id: 2,
-    name: 'SOBRE',
+    name: 'ABOUT',
     target: false,
     path: 'about',
   },
   {
     id: 3,
-    name: 'PROJETOS',
+    name: 'PROJECTS',
     target: false,
     path: 'projects',
   },

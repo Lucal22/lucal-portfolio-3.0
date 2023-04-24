@@ -1,5 +1,5 @@
 import { List, X } from 'phosphor-react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import * as Styled from './styles';
 import list from '../../mock';
 import Links from '../../../../components/Links';

@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { renderTheme } from '../../../../utils/renderTheme';
 import Nav from './index';
 
