@@ -15,7 +15,7 @@ export default function About() {
 
   return (
     <Styled.Container>
-      <Container height={'full'}>
+      <Container height={'full'} background={'dark'}>
         <Styled.Content>
           <Styled.Buttons>
             <Styled.Button

@@ -4,13 +4,13 @@ export const Home = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: 100%;
-    background-color: ${theme.colors.blackColor};
+    background-color: ${theme.background.black};
   `}
 `;
 
 export const Content = styled.div`
   position: relative;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;

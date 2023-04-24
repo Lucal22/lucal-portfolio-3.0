@@ -1,3 +1,4 @@
+import About from './container/About';
 import Header from './container/Header';
 import HomePage from './container/HomePage';
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <HomePage />
+      <About />
     </>
   );
 }

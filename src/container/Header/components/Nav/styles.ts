@@ -31,7 +31,7 @@ export const Item = styled.li`
     font-size: ${theme.fonts.size.small};
     font-weight: 500;
     &:hover {
-      color: ${theme.colors.blueColor};
+      color: ${theme.colors.whiteColor};
       transition: all 0.3s ease-in-out;
     }
   `}

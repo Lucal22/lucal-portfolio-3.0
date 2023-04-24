@@ -8,17 +8,12 @@ export const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: 100%;
-    background-color: ${theme.background.white};
+    background-color: ${theme.background.black};
   `}
 `;
 
 export const Content = styled.div`
-  ${({ theme }) => css`
-    padding-top: 9rem;
-    @media (min-width: ${theme.screen.size.large}) {
-      padding-top: 15rem;
-    } ;
-  `}
+  ${({ theme }) => css``}
 `;
 
 export const Buttons = styled.div`
@@ -32,12 +27,12 @@ export const Button = styled.button<AboutStyleProps>`
   ${({ theme, click }) => css`
     border: 1.5px solid black;
     border-radius: 25px;
-    background-color: ${click ? theme.background.gray : theme.background.white};
+    background-color: ${click ? theme.background.gray : theme.background.black};
     box-shadow: ${click ? '0px 4px 3px -2px rgba(0, 0, 0, 0.75)' : 'none'};
     font-size: ${theme.fonts.size.small};
     font-weight: 500;
     padding: 0.5rem;
-    color: ${theme.colors.blackColor};
+    color: ${theme.colors.whiteColor};
     @media (min-width: ${theme.screen.size.large}) {
       font-size: ${theme.fonts.size.big};
       &:hover {
