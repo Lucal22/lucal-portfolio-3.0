@@ -1,9 +1,7 @@
 import Container from '../../components/Container';
 import * as Styled from './styles';
-import AboutMe from './components/AboutMe';
-import Graduation from './components/Graduation';
-import Tech from './components/Tech';
 import { motion } from 'framer-motion';
+import Description from './components/Description';
 
 export type AboutProps = Styled.AboutStyleProps;
 
@@ -17,9 +15,7 @@ export default function About() {
             animate={{ y: [50, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
-            <AboutMe />
-            <Graduation />
-            <Tech />
+            <Description />
           </Styled.Description>
         </Styled.Content>
       </Container>

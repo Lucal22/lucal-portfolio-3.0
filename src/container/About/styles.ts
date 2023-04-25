@@ -17,48 +17,41 @@ export const Content = styled.div``;
 export const Description = styled.div`
   ${({ theme }) => css`
     @media (min-width: ${theme.screen.size.medium}) {
-      width: 50%;
+      width: 80%;
       margin: 0 auto;
       padding-top: 3rem;
     } ;
   `}
 `;
 
-export const Paragraph = styled.div`
+export const Paragraph = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.whiteColor};
-    display: flex;
-    padding-top: ${theme.spaces.large};
-    gap: ${theme.spaces.small};
-    align-items: center;
 
-    p {
-      font-size: ${theme.fonts.size.small};
-      font-weight: 400;
-      text-align: justify;
+    font-size: ${theme.fonts.size.small};
+    font-weight: 400;
+    text-align: justify;
 
-      span {
-        color: ${theme.colors.whiteColor};
-        background: ${theme.colors.greenColor};
-      }
+    span {
+      color: ${theme.colors.whiteColor};
+      background: ${theme.colors.greenColor};
     }
+
     img {
       min-width: 6.7rem;
     }
 
     @media (min-width: ${theme.screen.size.medium}) {
-      p {
-        font-size: ${theme.fonts.size.medium};
-      }
+      font-size: ${theme.fonts.size.medium};
+
       img {
         min-width: 10rem;
       }
     }
 
     @media (min-width: ${theme.screen.size.large}) {
-      p {
-        font-size: ${theme.fonts.size.big};
-      }
+      font-size: ${theme.fonts.size.big};
+
       img {
         min-width: 15rem;
       }
