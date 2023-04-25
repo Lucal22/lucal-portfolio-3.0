@@ -3,12 +3,10 @@ import * as Styled from '../styles';
 export default function Description() {
   return (
     <>
-      <Styled.Paragraph>
-        <h2>
-          Meu nome é Luís Carlos, tenho 26 anos e um grande interesse por
-          tecnologia.
-        </h2>
-      </Styled.Paragraph>
+      <Styled.SubTitle>
+        Meu nome é Luís Carlos, tenho 26 anos e um grande interesse por
+        tecnologia.
+      </Styled.SubTitle>
       <Styled.Paragraph>
         Sou de Conselheiro Lafaiete, Minas Gerais e no momento estou a procura
         de uma oportunidade como desenvolvedor web.

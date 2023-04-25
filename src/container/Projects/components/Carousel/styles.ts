@@ -23,18 +23,18 @@ export const Galery = styled.div`
 
 export const image = styled.div`
   ${({ theme }) => css`
-    width: 25rem;
+    width: 20rem;
     height: 100%;
     @media (min-width: ${theme.screen.size.small}) {
-      width: 34rem;
+      width: 10rem;
       height: 100%;
     }
     @media (min-width: ${theme.screen.size.medium}) {
-      width: 40rem;
+      width: 20rem;
       height: 100%;
     }
     @media (min-width: ${theme.screen.size.large}) {
-      width: 80rem;
+      width: 20rem;
       height: 100%;
     } ;
   `}

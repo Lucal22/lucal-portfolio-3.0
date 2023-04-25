@@ -25,14 +25,14 @@ export const Presentation = styled.div`
     max-height: 23rem;
     padding: 5rem 0.5rem;
     justify-content: center;
-    border: 2px solid ${theme.colors.whiteColor};
+    border: 2px solid ${theme.colors.grayColor};
 
     figure {
       display: block;
       position: absolute;
       margin-top: -12rem;
       border-radius: 50%;
-      border: 2px solid ${theme.colors.whiteColor};
+      border: 2px solid ${theme.colors.grayColor};
       width: 12rem;
       height: 12rem;
       @media (min-width: ${theme.screen.size.small}) {

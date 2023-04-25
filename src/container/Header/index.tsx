@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from './components/Menu';
 import Nav from './components/Nav';
 import * as Styled from './styles';
 
@@ -11,7 +10,6 @@ export default function Header() {
   return (
     <Styled.Header>
       <Nav />
-      <Menu />
     </Styled.Header>
   );
 }

@@ -1,16 +1,16 @@
 import { CaretLeft, CaretRight } from 'phosphor-react';
-import React, { useState } from 'react';
-import Images from '../Images';
+import { useState } from 'react';
+import Images from '../../../../components/Images';
 import * as Styled from './styles';
 import projects from './projects';
-import Links from '../Links';
+import Links from '../../../../components/Links';
 
 export default function Carousel() {
   const [slide, setSlide] = useState(0);
   const url = projects[slide].src;
   return (
     <Styled.Container>
-      <Styled.Galery>
+      {/* <Styled.Galery>
         <Styled.image>
           {url ? <Images src={url} alt={projects[slide].alt} /> : null}
         </Styled.image>
@@ -28,7 +28,7 @@ export default function Carousel() {
         >
           <CaretRight size={32} />
         </Styled.CaretRight>
-      </Styled.Galery>
+      </Styled.Galery> */}
 
       <Styled.Title>
         <h1>{projects[slide].title}</h1>

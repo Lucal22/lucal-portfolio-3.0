@@ -1,5 +1,5 @@
 import { fireEvent, screen } from '@testing-library/react';
-import { renderTheme } from '../../utils/renderTheme';
+import { renderTheme } from '../../../../utils/renderTheme';
 import Carousel from './index';
 import 'jest-styled-components';
 
