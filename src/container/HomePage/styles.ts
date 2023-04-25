@@ -10,7 +10,7 @@ export const Home = styled.div`
 
 export const Content = styled.div`
   position: relative;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
