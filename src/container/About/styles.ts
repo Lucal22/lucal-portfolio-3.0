@@ -12,35 +12,7 @@ export const Container = styled.div`
   `}
 `;
 
-export const Content = styled.div`
-  ${({ theme }) => css``}
-`;
-
-export const Buttons = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-`;
-
-export const Button = styled.button<AboutStyleProps>`
-  ${({ theme, click }) => css`
-    border: 1.5px solid black;
-    border-radius: 25px;
-    background-color: ${click ? theme.background.gray : theme.background.black};
-    box-shadow: ${click ? '0px 4px 3px -2px rgba(0, 0, 0, 0.75)' : 'none'};
-    font-size: ${theme.fonts.size.small};
-    font-weight: 500;
-    padding: 0.5rem;
-    color: ${theme.colors.whiteColor};
-    @media (min-width: ${theme.screen.size.large}) {
-      font-size: ${theme.fonts.size.big};
-      &:hover {
-        box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, 0.75);
-      }
-    } ;
-  `}
-`;
+export const Content = styled.div``;
 
 export const Description = styled.div`
   ${({ theme }) => css`
@@ -54,7 +26,7 @@ export const Description = styled.div`
 
 export const Paragraph = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.blackColor};
+    color: ${theme.colors.whiteColor};
     display: flex;
     padding-top: ${theme.spaces.large};
     gap: ${theme.spaces.small};
@@ -66,7 +38,7 @@ export const Paragraph = styled.div`
       text-align: justify;
 
       span {
-        color: ${theme.colors.blackColor};
+        color: ${theme.colors.whiteColor};
         background: ${theme.colors.greenColor};
       }
     }

@@ -14,30 +14,30 @@ export default function Tech() {
         </p>
         <Styled.Tech>
           {techIcons.map((icons, index) => {
-            return (
-              icons.image?<Images
+            return icons.image ? (
+              <Images
                 key={index}
                 src={icons.image}
                 alt={icons.alt}
                 width={60}
                 height={60}
-              />:null
-            );
+              />
+            ) : null;
           })}
         </Styled.Tech>
       </Styled.Paragraph>
       <Styled.Paragraph>
         <Styled.Tech>
           {techIconsRight.map((icons, index) => {
-            return (
-              icons.image?<Images
+            return icons.image ? (
+              <Images
                 key={index}
                 src={icons.image}
                 alt={icons.alt}
                 width={60}
                 height={60}
-              />:null
-            );
+              />
+            ) : null;
           })}
         </Styled.Tech>
 
