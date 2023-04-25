@@ -4,8 +4,9 @@ export default function Description() {
   return (
     <>
       <Styled.SubTitle>
-        Meu nome é Luís Carlos, tenho 26 anos e um grande interesse por
-        tecnologia.
+        {`
+        My name is Luís Carlos, i'm a software developer from Brazil graduated
+        in eletrical engineerig. `}
       </Styled.SubTitle>
       <Styled.Paragraph>
         Sou de Conselheiro Lafaiete, Minas Gerais e no momento estou a procura
