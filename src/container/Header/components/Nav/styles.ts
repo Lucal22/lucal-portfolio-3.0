@@ -5,8 +5,6 @@ export const Nav = styled.nav`
   margin: 0 auto;
   width: 50%;
   height: 100%;
-  backdrop-filter: blur(4px);
-  border-bottom: 1px solid rgb(0, 0, 0);
 `;
 
 export const List = styled.ul`
