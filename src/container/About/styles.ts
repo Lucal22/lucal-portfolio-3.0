@@ -48,7 +48,7 @@ export const Socials = styled.div`
 export const Description = styled.div`
   ${({ theme }) => css`
     grid-area: i2;
-    padding-top: 6rem;
+    padding-top: 4rem;
     @media (min-width: ${theme.screen.size.medium}) {
       width: 80%;
       margin: 0 auto;
@@ -59,8 +59,9 @@ export const Description = styled.div`
 
 export const SubTitle = styled.h2`
   ${({ theme }) => css`
-    font-size: ${theme.fonts.size.medium};
+    font-size: ${theme.fonts.size.xBig};
     text-align: center;
+    padding-bottom: 3.5rem;
   `}
 `;
 
@@ -95,23 +96,6 @@ export const Paragraph = styled.p`
       img {
         min-width: 15rem;
       }
-    }
-  `}
-`;
-
-export const Tech = styled.div`
-  ${({ theme }) => css`
-    display: grid;
-    grid-template-columns: 4rem 4rem;
-    gap: 2rem;
-    img {
-      min-width: 4rem;
-    }
-    @media (min-width: ${theme.screen.size.large}) {
-      img {
-        min-width: 6rem;
-      }
-      grid-template-columns: 6rem 6rem;
     }
   `}
 `;

@@ -5,8 +5,8 @@ export default function Description() {
     <>
       <Styled.SubTitle>
         {`
-        My name is Luís Carlos, i'm a software developer from Brazil graduated
-        in eletrical engineerig. `}
+        I'm Luís Carlos, a software developer from Brazil graduated
+        in electrical engineering.`}
       </Styled.SubTitle>
       <Styled.Paragraph>
         Sou de Conselheiro Lafaiete, Minas Gerais e no momento estou a procura
@@ -20,34 +20,8 @@ export default function Description() {
         Em maio de 2021 decidi aprender mais sobre programação e então comecei
         os meus estudos primeiramente com <span>HTML, CSS e JavaScript,</span>{' '}
         através de cursos, documentação e praticando.
-        {/* <Styled.Tech>
-          {techIcons.map((icons, index) => {
-            return icons.image ? (
-              <Images
-                key={index}
-                src={icons.image}
-                alt={icons.alt}
-                width={60}
-                height={60}
-              />
-            ) : null;
-          })}
-        </Styled.Tech> */}
       </Styled.Paragraph>
       <Styled.Paragraph>
-        {/* <Styled.Tech>
-          {techIconsRight.map((icons, index) => {
-            return icons.image ? (
-              <Images
-                key={index}
-                src={icons.image}
-                alt={icons.alt}
-                width={60}
-                height={60}
-              />
-            ) : null;
-          })}
-        </Styled.Tech> */}
         E em 2022 tenho estudado e desenvolvido projetos utilizando frameworks
         como <span>React.js, Next.js e Typescript</span> para o frontend e
         Node.js para backend além de procurar outras alternativas para
