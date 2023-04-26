@@ -76,7 +76,7 @@ export const Description = styled.div`
 
 export const SubTitle = styled.h2`
   ${({ theme }) => css`
-    font-size: ${theme.fonts.size.xBig};
+    font-size: ${theme.fonts.size.bigger};
     text-align: center;
     margin-bottom: 3.5rem;
   `}
