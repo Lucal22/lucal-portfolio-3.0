@@ -136,7 +136,7 @@ export const Topics = styled.p`
       color: ${theme.colors.grayColor};
     }
     a {
-      color: ${theme.colors.blueColor};
+      color: ${theme.colors.blackColor};
     }
   `}
 `;
