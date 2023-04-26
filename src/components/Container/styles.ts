@@ -26,7 +26,7 @@ export const Container = styled.div<ContainerStyleProps>`
     display: block;
     margin: 0 auto;
     padding: 0 1rem;
-    min-height: ${height == 'full' ? '90vh' : '100%'};
+    min-height: ${height == 'full' ? '100vh' : '100%'};
     width: ${theme.screen.size.xSmall};
     @media (min-width: ${theme.screen.size.small}) {
       width: ${theme.screen.size.small};
