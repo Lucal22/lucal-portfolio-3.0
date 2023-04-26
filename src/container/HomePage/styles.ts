@@ -52,6 +52,7 @@ export const Presentation = styled.div`
 
 export const Description = styled.div`
   ${({ theme }) => css`
+    margin-top: 1.5rem;
     h1,
     h2 {
       font-size: ${theme.fonts.size.big};

@@ -37,7 +37,15 @@ export const theme = {
       xSmall: '360px',
       small: '480px',
       medium: '780px',
-      large: '1280px',
+      large: '1024px',
+      xLarge: '1320px',
+    },
+    template: {
+      xSmall: '360px',
+      small: '480px',
+      medium: '780px',
+      large: '900px',
+      xLarge: '1280px',
     },
   },
   background: {

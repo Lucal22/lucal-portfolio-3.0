@@ -58,7 +58,7 @@ export default function About() {
                 }}
               >
                 <Envelope size={24} weight="light" />
-                <span>Send an email</span>
+                <span>luiscsilvestre22@gmail.com</span>
               </Styled.Button>
             </Styled.MediaComponent>
           </Styled.Socials>

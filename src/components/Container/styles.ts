@@ -32,10 +32,15 @@ export const Container = styled.div<ContainerStyleProps>`
       width: ${theme.screen.size.small};
     }
     @media (min-width: ${theme.screen.size.medium}) {
+      padding: 0 5rem;
       width: ${theme.screen.size.medium};
     }
     @media (min-width: ${theme.screen.size.large}) {
-      width: ${theme.screen.size.large};
+      width: ${theme.screen.template.large};
+    }
+    @media (min-width: ${theme.screen.size.xLarge}) {
+      padding: 0 10rem;
+      width: ${theme.screen.template.xLarge};
     }
     ${background ? backGround[background](theme) : null}
     border-left: 1px solid ${theme.colors.grayColor};
