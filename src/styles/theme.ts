@@ -2,14 +2,11 @@ export const theme = {
   colors: {
     primary: '#edf2f8',
     secondary: '#313bac',
-    blueColor: '#2430af',
     blackColor: '#030303',
     grayColor: 'rgba(82, 82, 91, 0.3)',
-    brownColor: '#46364a',
     whiteColor: '#f4f4f5',
-    purpleColor: 'rgb(138, 101, 181)',
-    greenColor: 'rgb(131, 234, 167)',
     lightGrayColor: '#ccc',
+    aboutTextColor: '#A1A1AA',
   },
   spaces: {
     xSmall: '0.8rem',
@@ -26,15 +23,13 @@ export const theme = {
     },
 
     size: {
+      xSmall: '1.4rem',
       small: '1.6rem',
       medium: '1.8rem',
       big: '2.4rem',
       xBig: '3.2rem',
       large: '4rem',
     },
-  },
-  shadows: {
-    posts: '0.2rem 0.2rem 0.5rem',
   },
   screen: {
     size: {

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { theme } from '../../styles/theme';
 
 export type AboutStyleProps = {
   click: boolean;
@@ -9,6 +10,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     background-color: ${theme.background.black};
+    font-family: ${theme.fonts.style.titleFont};
   `}
 `;
 
@@ -25,8 +27,6 @@ export const Content = styled.div`
       grid-template-areas:
         'i2 i1'
         'i4 i3';
-      /* display: flex;
-      flex-direction: row-reverse; */
     } ;
   `}
 `;
@@ -45,14 +45,31 @@ export const Socials = styled.div`
   grid-area: i3;
 `;
 
+export const MediaComponent = styled.div`
+  a {
+    display: flex;
+    align-items: center;
+  }
+  button {
+    display: flex;
+    align-items: center;
+  }
+  span {
+    padding-left: 1rem;
+    font-size: ${theme.fonts.size.xSmall};
+  }
+  padding-bottom: 1rem;
+`;
+
 export const Description = styled.div`
   ${({ theme }) => css`
     grid-area: i2;
-    padding-top: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     @media (min-width: ${theme.screen.size.medium}) {
       width: 80%;
       margin: 0 auto;
-      padding-top: 3rem;
+      margin-top: 3rem;
     } ;
   `}
 `;
@@ -61,41 +78,27 @@ export const SubTitle = styled.h2`
   ${({ theme }) => css`
     font-size: ${theme.fonts.size.xBig};
     text-align: center;
-    padding-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
   `}
 `;
 
 export const Paragraph = styled.p`
   ${({ theme }) => css`
-    color: ${theme.colors.whiteColor};
-
+    color: ${theme.colors.aboutTextColor};
     font-size: ${theme.fonts.size.small};
     font-weight: 400;
-    text-align: justify;
+    margin-bottom: 2.5rem;
 
     span {
       color: ${theme.colors.whiteColor};
-      background: ${theme.colors.greenColor};
-    }
-
-    img {
-      min-width: 6.7rem;
     }
 
     @media (min-width: ${theme.screen.size.medium}) {
       font-size: ${theme.fonts.size.medium};
-
-      img {
-        min-width: 10rem;
-      }
     }
 
     @media (min-width: ${theme.screen.size.large}) {
       font-size: ${theme.fonts.size.big};
-
-      img {
-        min-width: 15rem;
-      }
     }
   `}
 `;
@@ -106,4 +109,11 @@ export const DefaultText = styled.h1`
     padding-top: 10rem;
     text-align: center;
   `}
+`;
+
+export const Button = styled.button`
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
 `;
