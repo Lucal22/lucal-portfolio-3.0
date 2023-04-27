@@ -1,5 +1,4 @@
 import React from 'react';
-import Carousel from './components/Carousel';
 import Container from '../../components/Container';
 import * as Styled from './styles';
 
@@ -11,9 +10,7 @@ export default function Projects() {
   return (
     <Styled.Container>
       <Container height={'full'} background="dark">
-        <Styled.Content>
-          <Carousel />
-        </Styled.Content>
+        <Styled.Content></Styled.Content>
       </Container>
     </Styled.Container>
   );
