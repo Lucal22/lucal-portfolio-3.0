@@ -8,7 +8,6 @@ export type AboutStyleProps = {
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${theme.background.black};
   font-family: ${theme.fonts.style.titleFont};
 `;
 

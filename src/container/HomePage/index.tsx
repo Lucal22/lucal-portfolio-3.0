@@ -20,7 +20,7 @@ export default function HomePage() {
             </figure>
             <Styled.Description>
               <h1>Luís Carlos S. Silvestre</h1>
-              <h2>Web Developer and Electrical Engineer</h2>
+              <h2>Software Developer and Electrical Engineer</h2>
               <Styled.Media>
                 <Links
                   link="https://www.linkedin.com/in/lu%C3%ADs-carlos-723a28165/"

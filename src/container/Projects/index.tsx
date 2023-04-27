@@ -10,7 +10,7 @@ export type ProjectsProps = {
 export default function Projects() {
   return (
     <Styled.Container>
-      <Container height={'full'}>
+      <Container height={'full'} background="dark">
         <Styled.Content>
           <Carousel />
         </Styled.Content>
