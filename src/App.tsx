@@ -5,6 +5,7 @@ import Header from './container/Header';
 import HomePage from './container/HomePage';
 import Projects from './container/Projects';
 import Footer from './container/Footer';
+import ProjectDetails from './Page/ProjectDetails';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="*" element={<h1>Página nao existe</h1>} />
+          <Route path={`/projects/:params`} element={<ProjectDetails />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
         <Footer />
       </Router>
