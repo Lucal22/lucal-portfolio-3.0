@@ -19,7 +19,7 @@ function App() {
           <Route path={`/projects/:slug`} element={<ProjectContentPage />} />
           <Route path="/posts" element={<ProjectsPage />} />
           <Route path={`/posts/:slug`} element={<PostContentPage />} />
-          <Route path="*" element={<HomePage />} />
+          <Route path="*" element={<>erro</>} />
         </Routes>
         <Footer />
       </Router>
