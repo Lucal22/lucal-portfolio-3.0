@@ -7,7 +7,7 @@ import { LinkedinLogo, Envelope } from 'phosphor-react';
 import { IoLogoGithub } from 'react-icons/io';
 import Links from '../../components/Links';
 
-export default function HomePage() {
+export default function Home() {
   return (
     <Styled.Home>
       <Container background="dark" height={'full'}>

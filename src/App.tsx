@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import About from './container/About';
 import Header from './container/Header';
-import HomePage from './container/HomePage';
-import Projects from './container/Projects';
+import HomePage from './page/HomePage';
 import Footer from './container/Footer';
-import ProjectDetails from './Page/ProjectDetails';
+import ProjectContentPage from './page/ProjectContentPage';
+import ProjectsPage from './page/ProjectsPage';
+import AboutPage from './page/AboutPage';
+import PostContentPage from './page/PostContentPage';
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path={`/projects/:params`} element={<ProjectDetails />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path={`/projects/:params`} element={<ProjectContentPage />} />
+          <Route path="/posts" element={<ProjectsPage />} />
+          <Route path={`/posts/:params`} element={<PostContentPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
         <Footer />
