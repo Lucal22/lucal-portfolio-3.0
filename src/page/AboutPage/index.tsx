@@ -1,5 +1,5 @@
-import About from '../../container/About';
+import Content from '../../container/Content';
 
 export default function AboutPage() {
-  return <About />;
+  return <Content title={''} content={''} url={''} alt={''} />;
 }

@@ -3,27 +3,31 @@ import * as Styled from './styles';
 import { motion } from 'framer-motion';
 import Description from './components/Description';
 import Images from '../../components/Images';
-import images from '../../assets/index';
 import Links from '../../components/Links';
 import { Envelope, LinkedinLogo, Note } from 'phosphor-react';
 import { IoLogoGithub } from 'react-icons/io';
 
-export type AboutProps = Styled.AboutStyleProps;
+export type ContentProps = {
+  title: string;
+  content: string;
+  url: string;
+  alt: string;
+};
 
-export default function About() {
+export default function Content({ title, content, url, alt }: ContentProps) {
   return (
     <Styled.Container>
       <Container height={'full'} background={'dark'}>
         <Styled.Content>
           <Styled.Figure>
-            <Images src={images.luis} width={'100%'} alt={'Luis picture'} />
+            <Images src={url} width={'100%'} alt={alt} />
           </Styled.Figure>
           <Styled.Description
             as={motion.div}
             animate={{ y: [50, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
-            <Description />
+            <Description title={title} content={content} />
           </Styled.Description>
           <Styled.Socials>
             <Styled.MediaComponent>

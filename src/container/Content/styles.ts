@@ -96,6 +96,7 @@ export const SubTitle = styled.h2`
 `;
 
 export const Paragraph = styled.p`
+  white-space: pre-line;
   color: ${theme.colors.aboutTextColor};
   font-size: ${theme.fonts.size.xSmall};
   font-weight: 400;
