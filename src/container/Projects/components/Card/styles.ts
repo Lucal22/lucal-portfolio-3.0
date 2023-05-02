@@ -4,7 +4,8 @@ import { theme } from '../../../../styles/theme';
 export const Container = styled.div`
   width: 30rem;
   height: 22rem;
-  margin: 0 auto 4rem auto;
+  margin: 0 auto;
+  margin-top: 4rem;
   cursor: pointer;
   border-radius: 0.5rem;
   &:hover {
@@ -25,10 +26,11 @@ export const Description = styled.div`
 `;
 
 export const Img = styled.figure`
-  width: 95%;
-  margin: 1rem auto;
+  width: 100%;
+  margin: auto;
   img {
     width: 100%;
     object-fit: cover;
+    border-radius: 0.5rem;
   }
 `;

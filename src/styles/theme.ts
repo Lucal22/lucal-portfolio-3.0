@@ -36,14 +36,14 @@ export const theme = {
     size: {
       xSmall: '360px',
       small: '480px',
-      medium: '780px',
+      medium: '768px',
       large: '1024px',
       xLarge: '1320px',
     },
     template: {
       xSmall: '360px',
       small: '480px',
-      medium: '780px',
+      medium: '768px',
       large: '900px',
       xLarge: '1280px',
     },
