@@ -8,7 +8,7 @@ export const projects = [
       url: images.portfolio,
       alt: 'Imagem da frontpage do portfolio',
     },
-    resume: '',
+    description: '',
     content:
       'Este projeto é uma page responsiva e mobile first, feita utilizando Typescript no Next.js com o intuito de apresentar alguns dos principais projetos desenvolvidos por mim durante meus estudos.',
     stack: 'React.js, Typescript e Styled Component',
@@ -26,7 +26,7 @@ export const projects = [
       url: images.agenda,
       alt: 'image agenda',
     },
-    resume: 'resume about the project.',
+    description: 'resume about the project.',
     content: `Conteúdo qualquer só para ter oq falar.
     É isso.`,
     stack: 'React.js, Typescript, Node.js, Axios, Prisma e Styled Component',
@@ -43,7 +43,7 @@ export const projects = [
       url: images.keeper,
       alt: 'Imagem do keeper app',
     },
-    resume: '',
+    description: '',
     content:
       'O objetivo deste projeto foi criar uma lista de tarefas utilizando reactjs. Foi feito no ambiente de desenvolvimento do site CodeSandbox seguindo o curso da Dr. Angela Yu chamado "The Complete 2022 Web Development Bootcamp".',
     stack: 'React.js e CSS',
@@ -60,7 +60,7 @@ export const projects = [
       url: images.nations,
       alt: 'Imagem do site jogo das nações',
     },
-    resume: '',
+    description: '',
     content:
       'Este projeto é uma page responsiva feita em react.js com o intuito de desenvolver um jogo de aposta onde é possível tentar adivinhar qual a nação do dia.',
     stack: 'React.js, React Redux e SCSS',
@@ -77,7 +77,7 @@ export const projects = [
       url: images.blog,
       alt: 'Imagem do site Lucal Thoughts',
     },
-    resume: '',
+    description: '',
     content:
       'Projeto desenvolvido utilizando Typescript e Next.js que funciona como frontend de um blog.',
     stack: 'Nexts.js, Typescript, Tailwind Css, GraphQL',
@@ -94,7 +94,7 @@ export const projects = [
       url: images.strapipage,
       alt: 'Imagem do strapi',
     },
-    resume: '',
+    description: '',
     content:
       'Backend feito utilizando strapi para ser consumido pelo frontend do blog.',
     stack: 'Strapi',
