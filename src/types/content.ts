@@ -7,6 +7,7 @@ export type ContentDefaultProps = {
 };
 
 export type ProjectIconsProps = {
+  isProject?: boolean;
   github?: string;
   website?: string;
 };

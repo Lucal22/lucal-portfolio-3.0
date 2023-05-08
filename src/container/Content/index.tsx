@@ -19,8 +19,8 @@ export default function Content({
   return (
     <Styled.Container>
       <Container height={'full'} background={'dark'}>
-        <Styled.Content>
-          <Styled.Figure>
+        <Styled.Content isProject={isProject}>
+          <Styled.Figure isProject={isProject}>
             <Images src={url} width={'100%'} alt={alt} />
           </Styled.Figure>
           <Styled.Description
@@ -31,7 +31,11 @@ export default function Content({
             <Description title={title} content={content} />
           </Styled.Description>
           {isProject ? (
-            <ProjectIcons github={github} website={website} />
+            <ProjectIcons
+              isProject={isProject}
+              github={github}
+              website={website}
+            />
           ) : (
             <AboutIcons />
           )}

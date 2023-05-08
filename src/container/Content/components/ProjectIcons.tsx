@@ -3,9 +3,13 @@ import Links from '../../../components/Links';
 import * as Styled from '../styles';
 import { ProjectIconsProps } from '../../../types/content';
 
-export default function ProjectIcons({ github, website }: ProjectIconsProps) {
+export default function ProjectIcons({
+  github,
+  website,
+  isProject = true,
+}: ProjectIconsProps) {
   return (
-    <Styled.Socials>
+    <Styled.Socials isProject={isProject}>
       {website ? (
         <Styled.MediaComponent>
           <Links link={website} newTab={true}>

@@ -1,8 +1,23 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { theme } from '../../styles/theme';
 
-export type AboutStyleProps = {
-  click: boolean;
+export type ContentStyleProps = {
+  isProject: boolean;
+};
+
+const gridTemplate = {
+  project: () => css`
+    grid-template-areas:
+      'i1 i1'
+      'i2 i3';
+    grid-template-rows: fit auto;
+  `,
+  about: () => css`
+    grid-template-areas:
+      'i2 i1'
+      'i2 i3';
+    grid-template-rows: 30rem auto;
+  `,
 };
 
 export const Container = styled.div`
@@ -11,50 +26,60 @@ export const Container = styled.div`
   font-family: ${theme.fonts.style.titleFont};
 `;
 
-export const Content = styled.div`
-  display: grid;
-  grid-template-areas:
-    'i1 i1'
-    'i2 i2'
-    'i3 i3';
-  padding-top: 12rem;
-
-  @media (min-width: ${theme.screen.size.medium}) {
-    padding-top: 17rem;
-  }
-
-  @media (min-width: ${theme.screen.size.large}) {
+export const Content = styled.div<ContentStyleProps>`
+  ${({ theme, isProject }) => css`
+    display: grid;
     grid-template-areas:
-      'i2 i1'
-      'i2 i3';
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 30rem auto;
-  }
+      'i1 i1'
+      'i2 i2'
+      'i3 i3';
+    padding-top: 12rem;
 
-  @media (min-width: ${theme.screen.size.xLarge}) {
-    grid-template-rows: 42rem auto;
-  } ;
+    @media (min-width: ${theme.screen.size.medium}) {
+      padding-top: 17rem;
+    }
+
+    @media (min-width: ${theme.screen.size.large}) {
+      ${isProject ? gridTemplate['project'] : gridTemplate['about']}
+
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: fit auto;
+    }
+
+    @media (min-width: ${theme.screen.size.xLarge}) {
+      grid-template-rows: 42rem auto;
+    } ;
+  `}
 `;
 
-export const Figure = styled.div`
-  grid-area: i1;
-  width: 30rem;
-  height: 100%;
-  margin: 0 auto;
-  img {
-    border-radius: 1rem;
-    filter: grayscale(90%);
-  }
-  @media (min-width: ${theme.screen.size.medium}) {
-    margin: 0;
-  }
-  @media (min-width: ${theme.screen.size.large}) {
-    width: auto;
-  }
+export const Figure = styled.div<ContentStyleProps>`
+  ${({ isProject }) => css`
+    grid-area: i1;
+    width: 30rem;
+    height: 100%;
+    margin: 0 auto;
+    img {
+      border-radius: 1rem;
+      filter: ${isProject ? 'none' : 'grayscale(90%)'};
+    }
+    @media (min-width: ${theme.screen.size.medium}) {
+      margin: 0 ${isProject ? 'auto' : ''};
+      width: ${isProject ? '50rem' : '30rem'};
+    }
+    @media (min-width: ${theme.screen.size.large}) {
+      width: ${isProject ? '60rem' : 'auto'};
+    }
+    @media (min-width: ${theme.screen.size.xLarge}) {
+      width: ${isProject ? '80rem' : 'auto'};
+    }
+  `}
 `;
 
-export const Socials = styled.div`
-  grid-area: i3;
+export const Socials = styled.div<ContentStyleProps>`
+  ${({ isProject }) => css`
+    grid-area: i3;
+    margin-top: ${isProject ? '3rem' : 'none'};
+  `}
 `;
 
 export const MediaComponent = styled.div`
@@ -82,7 +107,7 @@ export const Description = styled.div`
     margin-top: 3rem;
   }
   @media (min-width: ${theme.screen.size.large}) {
-    padding-right: 10rem;
+    padding-right: 5rem;
   }
 `;
 
