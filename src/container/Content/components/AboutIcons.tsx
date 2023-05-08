@@ -5,7 +5,7 @@ import { Envelope, LinkedinLogo, Note } from 'phosphor-react';
 
 export default function AboutIcons() {
   return (
-    <Styled.Socials>
+    <Styled.Socials isProject={false}>
       <Styled.MediaComponent>
         <Links link="https://github.com/Lucal22" newTab={true}>
           <IoLogoGithub size={24} />
