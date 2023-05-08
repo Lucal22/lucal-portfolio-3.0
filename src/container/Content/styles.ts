@@ -140,6 +140,11 @@ export const Paragraph = styled.p`
   }
 `;
 
+export const Techs = styled.div`
+  display: block;
+`;
+export const Topics = styled.div``;
+
 export const DefaultText = styled.h1`
   color: ${theme.colors.grayColor};
   padding-top: 10rem;

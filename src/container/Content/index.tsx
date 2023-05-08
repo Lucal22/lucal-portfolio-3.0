@@ -29,6 +29,12 @@ export default function Content({
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
             <Description title={title} content={content} />
+            {isProject ? (
+              <Styled.Techs>
+                <Styled.Topics>Stacks</Styled.Topics>
+                <Styled.Topics>Libs</Styled.Topics>
+              </Styled.Techs>
+            ) : null}
           </Styled.Description>
           {isProject ? (
             <ProjectIcons
