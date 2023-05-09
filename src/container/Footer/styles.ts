@@ -5,8 +5,6 @@ export const Container = styled.div`
     width: 100%;
     height: 6vh;
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
     p {
       font-size: ${theme.fonts.size.small};
       color: ${theme.colors.aboutTextColor};
@@ -18,4 +16,9 @@ export const Container = styled.div`
       margin: 0;
     }
   `}
+`;
+
+export const Content = styled.div`
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 `;

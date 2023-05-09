@@ -28,7 +28,6 @@ export const Container = styled.div`
 
 export const Content = styled.div<ContentStyleProps>`
   ${({ theme, isProject }) => css`
-    margin-bottom: 5rem;
     display: grid;
     grid-template-areas:
       'i1 i1'
@@ -139,8 +138,12 @@ export const Techs = styled.div`
 `;
 export const Topics = styled.p`
   color: ${theme.colors.aboutTextColor};
-  font-size: ${theme.fonts.size.medium};
+  font-size: ${theme.fonts.size.xSmall};
   margin-bottom: 0.5rem;
+
+  @media (min-width: ${theme.screen.size.medium}) {
+    font-size: ${theme.fonts.size.medium};
+  }
 `;
 
 export const DefaultText = styled.h1`

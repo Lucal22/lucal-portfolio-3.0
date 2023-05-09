@@ -8,17 +8,19 @@ export default function Footer() {
   return (
     <Styled.Container>
       <Container height={'100'} background="dark">
-        <p>Copyright © {year}</p>
-        <p>
-          Made by{' '}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://portfolio-lucal.vercel.app/"
-          >
-            Lucal
-          </a>
-        </p>
+        <Styled.Content>
+          <p>Copyright © {year}</p>
+          <p>
+            Made by{' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://portfolio-lucal.vercel.app/"
+            >
+              Lucal
+            </a>
+          </p>
+        </Styled.Content>
       </Container>
     </Styled.Container>
   );
