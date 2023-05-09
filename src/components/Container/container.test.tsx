@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react';
 import { renderTheme } from '../../utils/renderTheme';
 import Container from './index';
 
@@ -9,7 +8,6 @@ describe('<Container />', () => {
         <h1>Olá mundo</h1>
       </Container>,
     );
-    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 
@@ -19,17 +17,15 @@ describe('<Container />', () => {
         <h1>Olá mundo</h1>
       </Container>,
     );
-    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 
-  it('should render with background gray', () => {
+  it('should render with background dark', () => {
     const { container } = renderTheme(
-      <Container height={'100'}>
+      <Container height={'100'} background={'dark'}>
         <h1>Olá mundo</h1>
       </Container>,
     );
-    expect(screen.getByRole('heading')).toBeInTheDocument;
     expect(container).toMatchSnapshot();
   });
 });
