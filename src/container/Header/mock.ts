@@ -9,13 +9,13 @@ const list = [
     id: 2,
     name: 'ABOUT',
     target: false,
-    path: '/about',
+    path: './about',
   },
   {
     id: 3,
     name: 'PROJECTS',
     target: false,
-    path: '/projects',
+    path: './projects',
   },
 ];
 
