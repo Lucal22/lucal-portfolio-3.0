@@ -7,9 +7,9 @@ export const Container = styled.div`
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 1rem;
-    color: ${theme.colors.grayColor};
     p {
       font-size: ${theme.fonts.size.small};
+      color: ${theme.colors.aboutTextColor};
     }
     a {
       color: ${theme.colors.lightGrayColor};

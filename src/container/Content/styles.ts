@@ -28,6 +28,7 @@ export const Container = styled.div`
 
 export const Content = styled.div<ContentStyleProps>`
   ${({ theme, isProject }) => css`
+    margin-bottom: 5rem;
     display: grid;
     grid-template-areas:
       'i1 i1'
@@ -127,23 +128,20 @@ export const Paragraph = styled.p`
   font-weight: 400;
   margin-bottom: 2.5rem;
 
-  span {
-    color: ${theme.colors.whiteColor};
-  }
-
   @media (min-width: ${theme.screen.size.medium}) {
     font-size: ${theme.fonts.size.medium};
-  }
-
-  @media (min-width: ${theme.screen.size.large}) {
-    font-size: ${theme.fonts.size.big};
   }
 `;
 
 export const Techs = styled.div`
   display: block;
+  margin-bottom: 3rem;
 `;
-export const Topics = styled.div``;
+export const Topics = styled.p`
+  color: ${theme.colors.aboutTextColor};
+  font-size: ${theme.fonts.size.medium};
+  margin-bottom: 0.5rem;
+`;
 
 export const DefaultText = styled.h1`
   color: ${theme.colors.grayColor};

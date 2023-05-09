@@ -15,6 +15,8 @@ export default function ProjectContentPage() {
           alt={projects[Number(slug)].image.alt}
           github={projects[Number(slug)].links.github}
           website={projects[Number(slug)].links.website}
+          stack={projects[Number(slug)].stack}
+          libs={projects[Number(slug)].libs}
         />
       ) : null}
     </>

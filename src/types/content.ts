@@ -10,6 +10,8 @@ export type ProjectIconsProps = {
   isProject?: boolean;
   github?: string;
   website?: string;
+  stack?: string;
+  libs?: string;
 };
 
 export type ProjectProps = ContentDefaultProps & ProjectIconsProps;

@@ -5,7 +5,6 @@ import Footer from './container/Footer';
 import ProjectContentPage from './page/ProjectContentPage';
 import ProjectsPage from './page/ProjectsPage';
 import AboutPage from './page/AboutPage';
-import PostContentPage from './page/PostContentPage';
 
 function App() {
   return (
@@ -17,8 +16,6 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path={`/projects/:slug`} element={<ProjectContentPage />} />
-          <Route path="/posts" element={<ProjectsPage />} />
-          <Route path={`/posts/:slug`} element={<PostContentPage />} />
           <Route path="*" element={<>erro</>} />
         </Routes>
         <Footer />

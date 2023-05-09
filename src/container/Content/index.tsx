@@ -15,6 +15,8 @@ export default function Content({
   alt,
   website,
   github,
+  stack,
+  libs,
 }: ContentProps) {
   return (
     <Styled.Container>
@@ -28,13 +30,13 @@ export default function Content({
             animate={{ y: [50, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
-            <Description title={title} content={content} />
-            {isProject ? (
-              <Styled.Techs>
-                <Styled.Topics>Stacks</Styled.Topics>
-                <Styled.Topics>Libs</Styled.Topics>
-              </Styled.Techs>
-            ) : null}
+            <Description
+              isProject={isProject}
+              title={title}
+              content={content}
+              libs={libs}
+              stack={stack}
+            />
           </Styled.Description>
           {isProject ? (
             <ProjectIcons
