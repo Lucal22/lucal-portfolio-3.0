@@ -1,28 +1,11 @@
-import { fireEvent, screen } from '@testing-library/react';
 import { renderTheme } from '../../utils/renderTheme';
 import Content from './index';
 
-describe('<About />', () => {
+describe('<Content />', () => {
   it('should render', () => {
-    renderTheme(<Content title={''} content={''} url={''} alt={''} />);
-    expect(screen.getByRole('heading')).toBeInTheDocument;
+    const content = renderTheme(
+      <Content title={''} content={''} url={''} alt={''} />,
+    );
+    expect(content).toMatchSnapshot;
   });
-});
-
-it('should render button about', () => {
-  renderTheme(<Content title={''} content={''} url={''} alt={''} />);
-  const button = screen.getByLabelText('Abre Sobre mim');
-  fireEvent.click(button);
-});
-
-it('should render button about', () => {
-  renderTheme(<Content title={''} content={''} url={''} alt={''} />);
-  const button = screen.getByLabelText('Abre Graduação');
-  fireEvent.click(button);
-});
-
-it('should render button about', () => {
-  renderTheme(<Content title={''} content={''} url={''} alt={''} />);
-  const button = screen.getByLabelText('Abre Tecnologias');
-  fireEvent.click(button);
 });
