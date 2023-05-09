@@ -13,9 +13,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="./about" element={<AboutPage />} />
-          <Route path="./projects" element={<ProjectsPage />} />
-          <Route path={`./projects/:slug`} element={<ProjectContentPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path={`/projects/:slug`} element={<ProjectContentPage />} />
           <Route path="*" element={<>erro</>} />
         </Routes>
         <Footer />
