@@ -5,6 +5,7 @@ import Footer from './container/Footer';
 import ProjectContentPage from './page/ProjectContentPage';
 import ProjectsPage from './page/ProjectsPage';
 import AboutPage from './page/AboutPage';
+import Error from './page/Error';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path={`/projects/:id`} element={<ProjectContentPage />} />
-          <Route path="*" element={<>erro</>} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
