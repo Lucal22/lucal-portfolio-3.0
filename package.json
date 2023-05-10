@@ -5,12 +5,10 @@
   "type": "commonjs",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build -s",
     "preview": "vite preview",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "framer-motion": "^10.12.4",
