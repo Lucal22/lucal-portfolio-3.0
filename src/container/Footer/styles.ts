@@ -19,6 +19,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  padding-top: 5rem;
+  padding-top: 15rem;
   padding-bottom: 1rem;
 `;

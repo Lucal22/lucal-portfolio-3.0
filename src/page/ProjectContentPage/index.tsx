@@ -4,7 +4,6 @@ import Content from '../../container/Content';
 
 export default function ProjectContentPage() {
   const { slug } = useParams();
-  console.log(slug);
 
   return (
     <>

@@ -3,16 +3,22 @@ import images from '../../assets/index';
 export const projects = [
   {
     id: 0,
-    title: 'Portfolio desenvolvimento web',
+    title: 'Portfolio',
     image: {
       url: images.portfolio,
       alt: 'Imagem da frontpage do portfolio',
     },
-    description: '',
-    content:
-      'Este projeto é uma page responsiva e mobile first, feita utilizando Typescript no Next.js com o intuito de apresentar alguns dos principais projetos desenvolvidos por mim durante meus estudos.',
-    stack: 'React.js, Typescript e Styled Component',
-    libs: 'Framer motion, phorphor icons e react icons',
+    description:
+      'A Portifolio created using React.js, Typescript and Styled Components.',
+    content: `This portfolio was developed to showcase the projects that i built using web technologies. Applying the concept of "mobile first", the website offers a great experience across various devices regardless of the screen size.
+
+    The frontend of this portfolio has been developing using React.js, TypeScript, and Styled Components.  React Router was implemented to create navigation and dynamic rounting. Framer motion was incorporated to make the motion of the description section in both about and projects page.
+
+    To ensure the reliability and functionality of the components, testing was conducted using the Jest library. Furthermore, this project was successfully deployed on Hostinger.
+
+    `,
+    stack: 'React.js, Typescript and Styled Component',
+    libs: 'Framer motion, phosphor icons and react icons',
     links: {
       github: 'https://github.com/Lucal22/lucal-portfolio-2.0',
       website: 'https://vercel.com/lucal22/portfolio-lucal',
