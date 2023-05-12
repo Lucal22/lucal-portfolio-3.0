@@ -15,10 +15,9 @@ export const projects = [
     The frontend of this portfolio has been developing using React.js, TypeScript, and Styled Components.  React Router was implemented to create navigation and dynamic rounting. Framer motion was incorporated to make the motion of the description section in both about and projects page.
 
     To ensure the reliability and functionality of the components, testing was conducted using the Jest library. Furthermore, this project was successfully deployed on Hostinger.
-
     `,
     stack: 'React.js, Typescript and Styled Component',
-    libs: 'Framer motion, phosphor icons and react icons',
+    libs: 'React Router, Jest, Framer motion, Phosphor icons and React icons',
     links: {
       github: 'https://github.com/Lucal22/lucal-portfolio-2.0',
       website: 'https://vercel.com/lucal22/portfolio-lucal',
@@ -32,13 +31,23 @@ export const projects = [
       url: images.agenda,
       alt: 'image agenda',
     },
-    description: 'resume about the project.',
-    content: `Conteúdo qualquer só para ter oq falar.
-    É isso.`,
+    description:
+      'A notebook that allows you to save the contacts of your dear friends.',
+    content: `The primary objective of this project was to develop an application that embrace all the essential functionalities of a CRUD (Create, Read, Update, Delete) system. By implementing this system, users can effectively manage and manipulate data within the application.
+
+    With a focus on user convenience, this application provides the ability to create user accounts, enabling individuals to securely store and manage contact information for the people who matter most to them. By leveraging this functionality, users can easily access and update contact details as needed.
+
+    The Contact Manager was developed implementing React.js for the frontend and Node.js for the backend, both with the help of Typescript to provide static typing. Styled Components was used to style the pages of the project and Axios components to make HTTP requests. On the backend, Express was used to create the API routes and Prisma was used as the ORM for database access.
+
+    The React Hook Form and YUP libraries were used to validate and create rules for user creation, login forms, contact creation and updating. In the Backend JWT was used to generate the token that allows the user to remain logged in after closing and reopening the page and Bcryptjs to encrypt the users' password.
+
+    The frontend is hosted on Vercel and the backend on Railway.
+    `,
     stack: 'React.js, Typescript, Node.js, Axios, Prisma e Styled Component',
     libs: 'React icons, react forms, yup e jwt',
     links: {
       github: 'https://github.com/Lucal22/contact-frontend',
+      githubBackend: 'https://github.com/Lucal22/contact-backend',
       website: 'https://agenda-m2t9nzti6-lucal22.vercel.app/',
     },
   },
