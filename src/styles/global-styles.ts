@@ -25,5 +25,13 @@ ${({ theme }) => css`
   h1 {
     font-size: ${theme.fonts.size.xBig};
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: ${theme.colors.grayColor};
+    border-radius: 10px;
+  }
 `}
 `;
