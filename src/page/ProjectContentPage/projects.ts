@@ -20,6 +20,7 @@ export const projects = [
     libs: 'React Router, Jest, Framer motion, Phosphor icons and React icons',
     links: {
       github: 'https://github.com/Lucal22/lucal-portfolio-2.0',
+      githubBackend: '',
       website: 'https://vercel.com/lucal22/portfolio-lucal',
     },
   },

@@ -14,6 +14,7 @@ export default function ProjectContentPage() {
           url={projects[Number(slug)].image.url}
           alt={projects[Number(slug)].image.alt}
           github={projects[Number(slug)].links.github}
+          githuback={projects[Number(slug)].links.githubBackend}
           website={projects[Number(slug)].links.website}
           stack={projects[Number(slug)].stack}
           libs={projects[Number(slug)].libs}

@@ -15,6 +15,7 @@ export default function Content({
   alt,
   website,
   github,
+  githuback,
   stack,
   libs,
 }: ContentProps) {
@@ -42,6 +43,7 @@ export default function Content({
             <ProjectIcons
               isProject={isProject}
               github={github}
+              githuback={githuback}
               website={website}
             />
           ) : (
