@@ -54,31 +54,45 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Imagem do keeper app',
-    image: {
-      url: images.keeper,
-      alt: 'Imagem do keeper app',
-    },
-    description: '',
-    content:
-      'O objetivo deste projeto foi criar uma lista de tarefas utilizando reactjs. Foi feito no ambiente de desenvolvimento do site CodeSandbox seguindo o curso da Dr. Angela Yu chamado "The Complete 2022 Web Development Bootcamp".',
-    stack: 'React.js e CSS',
-    libs: 'Material UI',
-    links: {
-      github: 'https://github.com/Lucal22/blog-strapi-api',
-      website: 'https://codesandbox.io/s/github/Lucal22/Keeper-app',
-    },
-  },
-  {
-    id: 3,
-    title: 'Jogo das nações',
+    title: 'The Scions Report',
     image: {
       url: images.nations,
       alt: 'Imagem do site jogo das nações',
     },
-    description: '',
-    content:
-      'Este projeto é uma page responsiva feita em react.js com o intuito de desenvolver um jogo de aposta onde é possível tentar adivinhar qual a nação do dia.',
+    description:
+      'A game website inspired on a very popular brazilian gamble called "Jogo do Bicho".',
+    content: `This project based on the popular game called "Jogo do Bicho" allows the user to guess what is the nation of the day.
+
+    For the frontend development it was used framer motion to do the animation of the theme button, the popover component from the Headlessui lib, was implemented to improve the acessibility and SCSS to style the website.
+
+    It was used React Redux to send the state that handles the theme change and using the localStorage was possible to save the theme preference and the previous countries that the user selected.
+
+    To make the daily draw, it was used a math operation involving the date components. The frontend is hosted on Vercel.
+    `,
+    stack: 'React.js, React Redux e SCSS',
+    libs: 'Headlessui, Framer motion e Phosphor icons',
+    links: {
+      github: 'https://github.com/Lucal22/nations-game',
+      website: 'https://nations-game.vercel.app/',
+    },
+  },
+  {
+    id: 3,
+    title: 'Nations game',
+    image: {
+      url: images.nations,
+      alt: 'Imagem do site jogo das nações',
+    },
+    description:
+      'A game website inspired on a very popular brazilian gamble called "Jogo do Bicho".',
+    content: `This project based on the popular game called "Jogo do Bicho" allows the user to guess what is the nation of the day.
+
+    For the frontend development it was used framer motion to do the animation of the theme button, the popover component from the Headlessui lib, was implemented to improve the acessibility and SCSS to style the website.
+
+    It was used React Redux to send the state that handles the theme change and using the localStorage was possible to save the theme preference and the previous countries that the user selected.
+
+    To make the daily draw, it was used a math operation involving the date components. The frontend is hosted on Vercel.
+    `,
     stack: 'React.js, React Redux e SCSS',
     libs: 'Headlessui, Framer motion e Phosphor icons',
     links: {
@@ -88,14 +102,31 @@ export const projects = [
   },
   {
     id: 4,
+    title: 'Keeper app',
+    image: {
+      url: images.keeper,
+      alt: 'Imagem do keeper app',
+    },
+    description:
+      'Save your daily tasks on the Keeper app, a to do list developed on react.js',
+    content: `O objetivo deste projeto foi criar uma lista de tarefas utilizando reactjs. Foi feito no ambiente de desenvolvimento do site CodeSandbox seguindo o curso da Dr. Angela Yu chamado "The Complete 2022 Web Development Bootcamp".`,
+    stack: 'React.js e CSS',
+    libs: 'Material UI',
+    links: {
+      github: 'https://github.com/Lucal22/blog-strapi-api',
+      website: 'https://codesandbox.io/s/github/Lucal22/Keeper-app',
+    },
+  },
+
+  {
+    id: 5,
     title: 'Blog pessoal - Frontend',
     image: {
       url: images.blog,
       alt: 'Imagem do site Lucal Thoughts',
     },
     description: '',
-    content:
-      'Projeto desenvolvido utilizando Typescript e Next.js que funciona como frontend de um blog.',
+    content: ``,
     stack: 'Nexts.js, Typescript, Tailwind Css, GraphQL',
     libs: 'Phosphor icons',
     links: {
@@ -104,7 +135,7 @@ export const projects = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: 'Blog pessoal - Backend',
     image: {
       url: images.strapipage,
