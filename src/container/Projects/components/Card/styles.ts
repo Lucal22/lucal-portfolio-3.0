@@ -9,7 +9,9 @@ export const Container = styled.div`
   cursor: pointer;
   border-radius: 0.5rem;
   &:hover {
-    background-color: ${theme.colors.grayColor};
+    img {
+      filter: grayscale(0%);
+    }
   }
 `;
 
@@ -32,5 +34,6 @@ export const Img = styled.figure`
     width: 100%;
     object-fit: cover;
     border-radius: 0.5rem;
+    filter: grayscale(50%);
   }
 `;
