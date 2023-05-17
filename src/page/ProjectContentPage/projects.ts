@@ -44,8 +44,8 @@ export const projects = [
 
     The frontend is deployed on Vercel and the backend on Railway.
     `,
-    stack: 'React.js, Typescript, Node.js, Axios, Prisma e Styled Component',
-    libs: 'React icons, react forms, yup e jwt',
+    stack: 'React.js, Typescript, Node.js, Axios, Postgress e Styled Component',
+    libs: 'React icons, react forms, , Prisma, yup e jwt',
     links: {
       github: 'https://github.com/Lucal22/contact-frontend',
       githubBackend: 'https://github.com/Lucal22/contact-backend',
@@ -59,13 +59,17 @@ export const projects = [
       url: images.blog,
       alt: 'Frontpage of the website The scions Report',
     },
-    description: 'A Final Fantasy XIV fanmade website (In development).',
-    content: `The goal with this blog its to show informations such as guides and news for the final fantasy xiv community.
+    description: 'A Final Fantasy XIV fansite (In development).',
+    content: `"The Scions Report" provide guides and news about Final Fantasy XIV Online, a MMORPG published by Square Enix.
 
-    The frontend is developed on Next.js with the assistance of Typescript. The data is fetched using graphql and rendered with static props
+    To kickstart the project, I utilized Next.js, a versatile framework renowned for its server-side rendering (SSR) capabilities and efficient routing system, TypeScript played a pivotal role in enhancing the reliability and maintainability of the codebase and Styled Components was implemented to craft a visually appealing and responsive user interface.
+
+    GraphQL served as a powerful data-fetching tool, enabling efficient communication between the frontend and backend. Through GraphQL queries, I seamlessly retrieved and manipulated data, allowing for dynamic content updates and reducing unnecessary network requests.
+
+    The Scions Report is deployed on Vercel and still in development.
     `,
-    stack: 'Next.js, Typescript, Styled Components',
-    libs: 'GraphQL, Jest and Phosphor icons. ',
+    stack: 'Next.js, Typescript and Styled Components.',
+    libs: 'GraphQL, Jest and Phosphor icons.',
     links: {
       github: 'https://github.com/Lucal22/tsr',
       website: 'https://tsr-pi.vercel.app/',
@@ -76,7 +80,7 @@ export const projects = [
     title: 'Strapi - The Scions Report Backend',
     image: {
       url: images.strapipage,
-      alt: 'Imagem do strapi',
+      alt: 'Frontpage of the website Strapi',
     },
     description: `Post manager for "The Scions Report" using Strapi.`,
     content: `Strapi is an open-source headless CMS that allows developers to build and manage API-driven content easily. It provides a flexible and customizable environment for creating and organizing content, including structured data, media files, and more.
@@ -95,7 +99,7 @@ export const projects = [
     title: 'Nations game',
     image: {
       url: images.nations,
-      alt: 'Imagem do site jogo das nações',
+      alt: 'Frontpage of the website Nations game',
     },
     description:
       'A game website inspired on a very popular brazilian gamble called "Jogo do Bicho".',
@@ -107,8 +111,8 @@ export const projects = [
 
     To make the daily draw, it was used a math operation involving the date components. The frontend is deployed on Vercel.
     `,
-    stack: 'React.js, React Redux e SCSS',
-    libs: 'Headlessui, Framer motion e Phosphor icons',
+    stack: 'React.js, React Redux and SCSS',
+    libs: 'Headlessui, Framer motion and Phosphor icons',
     links: {
       github: 'https://github.com/Lucal22/nations-game',
       website: 'https://nations-game.vercel.app/',
@@ -116,20 +120,24 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Keeper app',
+    title: 'Widget',
     image: {
-      url: images.keeper,
-      alt: 'Imagem do keeper app',
+      url: images.widget,
+      alt: 'Frontpage of the website Widget',
     },
     description:
-      'Save your daily tasks on the Keeper app, a to do list developed on react.js',
-    content: `The keeper app is a to do list developed with react.js on the CodeSandBox enviroment. This was my first project developed in react.js.
+      'Save your daily tasks on the Keeper app, a to do list developed on react.js.',
+    content: `The widget was developed during the NLW return week offered by Rocketseat, that allows the user to send a feedback report.
+
+    The frontend was developed in react.js and the library Headless UI to increase the accessibility of the project. The mobile app was built in React Native.
+
+    For the backend was used the library NodeMailer to send emails containing the informations of the feedback sent by an user. Nodejs and Typescript was used to configure and validate the data that would be sent to the database and email.
     `,
-    stack: 'React.js e CSS',
-    libs: 'Material UI',
+    stack: 'React.js, React Native, Tailwind CSS, Typescript and Node.js.',
+    libs: 'Headless UI, Jest, Prisma and Phosphor Icons.',
     links: {
-      github: 'https://github.com/Lucal22/Keeper-app',
-      website: 'https://codesandbox.io/s/github/Lucal22/Keeper-app',
+      github: 'https://github.com/Lucal22/WidgetProject-NLW-8',
+      website: 'https://widget-project-nlw-8.vercel.app/',
     },
   },
 ];
