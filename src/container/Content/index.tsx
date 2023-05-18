@@ -25,9 +25,11 @@ export default function Content({
       <Container height={'full'} background={'dark'}>
         <Styled.Content>
           <Styled.Grid isProject={isProject}>
-            <Styled.Back href="/projects">
-              <ArrowCircleLeft size={48} />
-            </Styled.Back>
+            {isProject ? (
+              <Styled.Back href="/projects">
+                <ArrowCircleLeft size={48} />
+              </Styled.Back>
+            ) : null}
             <Styled.Figure isProject={isProject}>
               <Images src={url} width={'100%'} alt={alt} />
             </Styled.Figure>
