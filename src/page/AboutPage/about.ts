@@ -8,12 +8,12 @@ export const about = {
     url: images.luis,
     alt: 'Luis picture',
   },
-  content: `Sou de Conselheiro Lafaiete, Minas Gerais e no momento estou a procura de uma oportunidade como desenvolvedor web.
+  content: `As a passionate tech enthusiast, I have dedicated the past two years to learning and honing my skills in frontend development. My focus has been on utilizing technologies such as React.js, Next.js, and TypeScript, which have played a crucial role in the projects I have undertaken.
 
-  Alguns dos meus hobbies são assistir séries e filmes, ir ao cinema, jogos online e pelo último ano está sendo programar.
+  My journey into coding began during my electrical engineering graduation, where I discovered the power of programming languages in solving mathematical problems using tools like MATLAB and Python.
 
-  Em maio de 2021 decidi aprender mais sobre programação e então comecei os meus estudos primeiramente com HTML, CSS e JavaScript, através de cursos, documentação e praticando.
+  During the final year of my graduation, I had the opportunity to work as an intern for a multinational company's CAPEX engineering team. This role involved implementing significant projects within the company. It was an invaluable experience that allowed me to actively participate in all stages of a project, from its conceptualization to its successful initiation.
 
-  E em 2022 tenho estudado e desenvolvido projetos utilizando frameworks como React.js, Next.js e Typescript para o frontend e Node.js para backend além de procurar outras alternativas para estilização como Tailwind CSS, Styled Components e SASS.
+  Subsequently, I served as a project engineer assistant for a company specializing in industrial projects. During this time, I diligently followed established schedules while actively contributing to the development and execution of various projects. This experience further honed my ability to collaborate effectively with different teams from diverse areas, ensuring the successful completion of each project.
   `,
 };
