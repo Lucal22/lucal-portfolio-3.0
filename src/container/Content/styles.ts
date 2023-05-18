@@ -26,18 +26,22 @@ export const Container = styled.div`
   font-family: ${theme.fonts.style.titleFont};
 `;
 
-export const Content = styled.div<ContentStyleProps>`
+export const Content = styled.div`
+  padding-top: 12rem;
+
+  @media (min-width: ${theme.screen.size.medium}) {
+    padding-top: 17rem;
+  }
+`;
+
+export const Grid = styled.div<ContentStyleProps>`
   ${({ theme, isProject }) => css`
     display: grid;
+    position: relative;
     grid-template-areas:
       'i1 i1'
       'i2 i2'
       'i3 i3';
-    padding-top: 12rem;
-
-    @media (min-width: ${theme.screen.size.medium}) {
-      padding-top: 17rem;
-    }
 
     @media (min-width: ${theme.screen.size.large}) {
       ${isProject ? gridTemplate['project'] : gridTemplate['about']}
@@ -73,6 +77,14 @@ export const Figure = styled.div<ContentStyleProps>`
       width: ${isProject ? '80rem' : 'auto'};
     }
   `}
+`;
+
+export const Back = styled.a`
+  display: none;
+  @media (min-width: ${theme.screen.size.medium}) {
+    display: block;
+    position: absolute;
+  }
 `;
 
 export const Socials = styled.div<ContentStyleProps>`
