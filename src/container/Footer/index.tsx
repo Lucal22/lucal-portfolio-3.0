@@ -15,7 +15,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://portfolio-lucal.vercel.app/"
+              href="https://lucaldev.com/"
             >
               Lucal
             </a>

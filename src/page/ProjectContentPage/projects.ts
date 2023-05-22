@@ -109,13 +109,13 @@ export const projects = [
 
     It was used React Redux to send the state that handles the theme change and using the localStorage was possible to save the theme preference and the previous countries that the user selected.
 
-    To make the daily draw, it was used a math operation involving the date components. The frontend is deployed on Vercel.
+    To make the daily draw, it was used a math operation involving the date components. The website is deployed on hostinger.
     `,
     stack: 'React.js, React Redux and SCSS',
     libs: 'Headlessui, Framer motion and Phosphor icons',
     links: {
       github: 'https://github.com/Lucal22/nations-game',
-      website: 'https://nations-game.vercel.app/',
+      website: 'https://nations.lucaldev.com/',
     },
   },
   {
