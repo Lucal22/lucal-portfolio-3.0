@@ -49,7 +49,7 @@ export const projects = [
     links: {
       github: 'https://github.com/Lucal22/contact-frontend',
       githubBackend: 'https://github.com/Lucal22/contact-backend',
-      website: 'https://agenda-m2t9nzti6-lucal22.vercel.app/',
+      website: 'https://contact-list-lucal.vercel.app/',
     },
   },
   {

@@ -13,16 +13,13 @@ export default function AboutIcons() {
         </Links>
       </Styled.MediaComponent>
       <Styled.MediaComponent>
-        <Links link="https://shorturl.at/flxyS" newTab={true}>
+        <Links link="https://shorturl.at/AEPR3" newTab={true}>
           <Note size={24} />
           <span>Check my CV</span>
         </Links>
       </Styled.MediaComponent>
       <Styled.MediaComponent>
-        <Links
-          link="https://www.linkedin.com/in/lu%C3%ADs-carlos-723a28165/"
-          newTab={true}
-        >
+        <Links link="https://www.linkedin.com/in/lucaldev" newTab={true}>
           <LinkedinLogo size={24} weight="light" />
           <span>Follow on Linkedin</span>
         </Links>
