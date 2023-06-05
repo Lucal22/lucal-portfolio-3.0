@@ -72,7 +72,7 @@ export const projects = [
     libs: 'GraphQL, Jest and Phosphor icons.',
     links: {
       github: 'https://github.com/Lucal22/tsr',
-      website: 'https://tsr-pi.vercel.app/',
+      website: 'https://tsr-lucal22.vercel.app/',
     },
   },
   {
