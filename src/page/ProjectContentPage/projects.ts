@@ -54,6 +54,25 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Capputeeno',
+    image: {
+      url: images.ecommerce,
+      alt: 'Frontpage of Capputeeno',
+    },
+    description: `An ecommerce frontend challenge project by Rocketseat.`,
+    content: ` Capputeeno is an ecommerce frontend project developed following the instructions of the challenge provided by Rocketseat.
+
+    It was developed using Next.js, Typescript, Styled Components and also axios to fetch the data provided from a graphQl API.
+    `,
+    stack: 'Next.js, Typescript and Styled Components',
+    libs: 'Axios',
+    links: {
+      github: 'https://github.com/Lucal22/Front-end-challenge',
+      website: '',
+    },
+  },
+  {
+    id: 3,
     title: 'The Scions Report',
     image: {
       url: images.blog,
@@ -76,7 +95,7 @@ export const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: 'Strapi - The Scions Report Backend',
     image: {
       url: images.strapipage,
@@ -95,7 +114,7 @@ export const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: 'Nations game',
     image: {
       url: images.nations,
@@ -119,7 +138,7 @@ export const projects = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: 'Widget',
     image: {
       url: images.widget,

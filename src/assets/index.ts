@@ -30,6 +30,7 @@ import blog from './images/blog.png';
 import postgresql from './images/postgresql.png';
 import strapipage from './images/strapipage.png';
 import agenda from './images/agenda.png';
+import ecommerce from './images/ecommerce.png';
 
 export default {
   api,
@@ -42,6 +43,7 @@ export default {
   css,
   git,
   portfolio,
+  ecommerce,
   keeper,
   nations,
   graphql,
