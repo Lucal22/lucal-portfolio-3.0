@@ -31,6 +31,7 @@ import postgresql from './images/postgresql.png';
 import strapipage from './images/strapipage.png';
 import agenda from './images/agenda.png';
 import ecommerce from './images/ecommerce.png';
+import solchallenge from './images/solchallenge.png';
 
 export default {
   api,
@@ -66,4 +67,5 @@ export default {
   githubnoir,
   tailwind,
   widget,
+  solchallenge,
 };

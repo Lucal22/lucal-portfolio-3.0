@@ -139,6 +139,28 @@ export const projects = [
   },
   {
     id: 6,
+    title: 'SSBOOK',
+    image: {
+      url: images.solchallenge,
+      alt: 'Frontpage of the website SSBOOK',
+    },
+    description: 'A library website challenge by Studio Sol.',
+    content: `SSBOOK was developed as a frontend challenge made by Studios Sol.
+    The design was made following a Figma project provided by the company and implemented using React.js, Tailwind and styled components.
+
+    Axios and React Query was used to fetch the api objects and Jest for testing.
+
+    The website is deployed on Vercel.
+    `,
+    stack: 'React.js, React Redux and SCSS',
+    libs: 'Headlessui, Framer motion and Phosphor icons',
+    links: {
+      github: 'https://github.com/Lucal22/sol-challenge',
+      website: 'https://sol-challenge.vercel.app/',
+    },
+  },
+  {
+    id: 7,
     title: 'Widget',
     image: {
       url: images.widget,
