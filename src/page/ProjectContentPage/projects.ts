@@ -24,32 +24,26 @@ export const projects = [
       website: 'https://vercel.com/lucal22/portfolio-lucal',
     },
   },
-
   {
     id: 1,
-    title: 'Contact list (CRUD)',
+    title: 'SSBOOK',
     image: {
-      url: images.agenda,
-      alt: 'Frontpage of the website Contact List',
+      url: images.solchallenge,
+      alt: 'Frontpage of the website SSBOOK',
     },
-    description:
-      'A notebook that allows you to save the contacts of your dear friends.',
-    content: `The primary objective of this project was to develop an application that embrace all the essential functionalities of a CRUD (Create, Read, Update, Delete) system. By implementing this system, users can effectively manage and manipulate data within the application.
+    description: 'A library website challenge by Studio Sol.',
+    content: `SSBOOK was developed as a frontend challenge made by Studios Sol.
+    The design was made following a Figma project provided by the company and implemented using React.js, Tailwind and styled components.
 
-    With a focus on user convenience, this application provides the ability to create user accounts, enabling individuals to securely store and manage contact information for the people who matter most to them. By leveraging this functionality, users can easily access and update contact details as needed.
+    Axios and React Query was used to fetch the api objects and Jest for testing.
 
-    The Contact Manager was developed implementing React.js for the frontend and Node.js for the backend, both with the help of Typescript to provide static typing. Styled Components was used to style the pages of the project and Axios components to make HTTP requests. On the backend, Express was used to create the API routes and Prisma was used as the ORM for database access.
-
-    The React Hook Form and YUP libraries were used to validate and create rules for user creation, login forms, contact creation and updating. In the Backend JWT was used to generate the token that allows the user to remain logged in after closing and reopening the page and Bcryptjs to encrypt the users' password.
-
-    The frontend is deployed on Vercel and the backend on Railway.
+    The website is deployed on Vercel.
     `,
-    stack: 'React.js, Typescript, Node.js, Axios, Postgress e Styled Component',
-    libs: 'React icons, react forms, , Prisma, yup e jwt',
+    stack: 'React.js, React Redux and SCSS',
+    libs: 'Headlessui, Framer motion and Phosphor icons',
     links: {
-      github: 'https://github.com/Lucal22/contact-frontend',
-      githubBackend: 'https://github.com/Lucal22/contact-backend',
-      website: 'https://contact-list-lucal.vercel.app/',
+      github: 'https://github.com/Lucal22/sol-challenge',
+      website: 'https://sol-challenge.vercel.app/',
     },
   },
   {
@@ -139,24 +133,29 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'SSBOOK',
+    title: 'Contact list (CRUD)',
     image: {
-      url: images.solchallenge,
-      alt: 'Frontpage of the website SSBOOK',
+      url: images.agenda,
+      alt: 'Frontpage of the website Contact List',
     },
-    description: 'A library website challenge by Studio Sol.',
-    content: `SSBOOK was developed as a frontend challenge made by Studios Sol.
-    The design was made following a Figma project provided by the company and implemented using React.js, Tailwind and styled components.
+    description:
+      'A notebook that allows you to save the contacts of your dear friends.',
+    content: `The primary objective of this project was to develop an application that embrace all the essential functionalities of a CRUD (Create, Read, Update, Delete) system. By implementing this system, users can effectively manage and manipulate data within the application.
 
-    Axios and React Query was used to fetch the api objects and Jest for testing.
+    With a focus on user convenience, this application provides the ability to create user accounts, enabling individuals to securely store and manage contact information for the people who matter most to them. By leveraging this functionality, users can easily access and update contact details as needed.
 
-    The website is deployed on Vercel.
+    The Contact Manager was developed implementing React.js for the frontend and Node.js for the backend, both with the help of Typescript to provide static typing. Styled Components was used to style the pages of the project and Axios components to make HTTP requests. On the backend, Express was used to create the API routes and Prisma was used as the ORM for database access.
+
+    The React Hook Form and YUP libraries were used to validate and create rules for user creation, login forms, contact creation and updating. In the Backend JWT was used to generate the token that allows the user to remain logged in after closing and reopening the page and Bcryptjs to encrypt the users' password.
+
+    The frontend is deployed on Vercel and the backend on Railway.
     `,
-    stack: 'React.js, React Redux and SCSS',
-    libs: 'Headlessui, Framer motion and Phosphor icons',
+    stack: 'React.js, Typescript, Node.js, Axios, Postgress e Styled Component',
+    libs: 'React icons, react forms, , Prisma, yup e jwt',
     links: {
-      github: 'https://github.com/Lucal22/sol-challenge',
-      website: 'https://sol-challenge.vercel.app/',
+      github: 'https://github.com/Lucal22/contact-frontend',
+      githubBackend: 'https://github.com/Lucal22/contact-backend',
+      website: 'https://contact-list-lucal.vercel.app/',
     },
   },
   {
