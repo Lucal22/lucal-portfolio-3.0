@@ -128,7 +128,7 @@ export const projects = [
     libs: 'Headlessui, Framer motion and Phosphor icons',
     links: {
       github: 'https://github.com/Lucal22/nations-game',
-      website: 'https://nations.lucaldev.com/',
+      website: 'https://nations-game.vercel.app/',
     },
   },
   {
