@@ -158,6 +158,7 @@ export const projects = [
       website: 'https://contact-list-lucal.vercel.app/',
     },
   },
+
   {
     id: 7,
     title: 'Widget',
